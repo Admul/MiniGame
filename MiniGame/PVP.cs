@@ -312,6 +312,7 @@ namespace MiniGame
         {
             if (cells[0] + cells[1] + cells[2] == 3)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p1_name}");
 
                 this.Close();
@@ -319,6 +320,7 @@ namespace MiniGame
             }
             else if (cells[0] + cells[4] + cells[8] == 3)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p1_name}");
 
                 this.Close();
@@ -326,6 +328,7 @@ namespace MiniGame
             }
             else if (cells[0] + cells[3] + cells[6] == 3)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p1_name}");
 
                 this.Close();
@@ -333,6 +336,7 @@ namespace MiniGame
             }
             else if (cells[2] + cells[4] + cells[6] == 3)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p1_name}");
 
                 this.Close();
@@ -340,6 +344,7 @@ namespace MiniGame
             }
             else if (cells[2] + cells[5] + cells[8] == 3)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p1_name}");
 
                 this.Close();
@@ -347,6 +352,7 @@ namespace MiniGame
             }
             else if (cells[3] + cells[4] + cells[5] == 3)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p1_name}");
 
                 this.Close();
@@ -354,6 +360,7 @@ namespace MiniGame
             }
             else if (cells[1] + cells[4] + cells[7] == 3)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p1_name}");
 
                 this.Close();
@@ -361,6 +368,7 @@ namespace MiniGame
             }
             else if (cells[6] + cells[7] + cells[8] == 3)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p1_name}");
 
                 this.Close();
@@ -368,6 +376,7 @@ namespace MiniGame
             }
             else if (cells[0] + cells[1] + cells[2] == 30)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p2_name}");
 
                 this.Close();
@@ -375,6 +384,7 @@ namespace MiniGame
             }
             else if (cells[0] + cells[4] + cells[8] == 30)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p2_name}");
 
                 this.Close();
@@ -382,6 +392,7 @@ namespace MiniGame
             }
             else if (cells[0] + cells[3] + cells[6] == 30)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p2_name}");
 
                 this.Close();
@@ -389,6 +400,7 @@ namespace MiniGame
             }
             else if (cells[2] + cells[4] + cells[6] == 30)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p2_name}");
 
                 this.Close();
@@ -396,6 +408,7 @@ namespace MiniGame
             }
             else if (cells[2] + cells[5] + cells[8] == 30)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p2_name}");
 
                 this.Close();
@@ -403,6 +416,7 @@ namespace MiniGame
             }
             else if (cells[3] + cells[4] + cells[5] == 30)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p2_name}");
 
                 this.Close();
@@ -410,6 +424,7 @@ namespace MiniGame
             }
             else if (cells[1] + cells[4] + cells[7] == 30)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p2_name}");
 
                 this.Close();
@@ -417,6 +432,7 @@ namespace MiniGame
             }
             else if (cells[6] + cells[7] + cells[8] == 30)
             {
+                tb_move.Text = "";
                 MessageBox.Show($"Выйграл: {p2_name}");
 
                 this.Close();
@@ -426,6 +442,7 @@ namespace MiniGame
                 cells[3] + cells[4] + cells[5] +
                 cells[6] + cells[7] + cells[8] == 45)
             {
+                tb_move.Text = "";
                 MessageBox.Show("Ничья");
 
                 this.Close();
